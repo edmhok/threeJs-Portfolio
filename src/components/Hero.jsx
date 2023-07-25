@@ -18,12 +18,12 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop frontend and backend <br className="sm:block hidden" />
-            interfaces and web applications
+            interfaces and from web to mobile applications
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
@@ -33,7 +33,7 @@ const Hero = () => {
                 y: [0, 24, 0],
               }}
               transition={{
-                duration: 1.5,
+                duration: 0.5,
                 repeat: Infinity,
                 repeatType: 'loop',
               }}

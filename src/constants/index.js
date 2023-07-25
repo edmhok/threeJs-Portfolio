@@ -8,18 +8,38 @@ import {
     html,
     css,
     reactjs,
+    vuejs,
+    angularjs,
+    nestjs,
+    nextjs,
     redux,
     tailwind,
+    firebase,
     nodejs,
+    php,
     mongodb,
+    mysql,
     git,
+    wordpress,
     figma,
     docker,
-    meta,
+    digisearch,
+    dripcreative,
+    snapbooster,
+    coders,
+    inlight,
+    sandbox,
+    advice,
+    syntax,
+    wpcrunchy,
+    offsourcing,
     lumaprints,
     alreno,
-    shopify,
+    empower,
+    themetribe,
     carrent,
+    imageeditor,
+    maruland,
     jobit,
     tripguide,
     threejs,
@@ -42,7 +62,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
@@ -54,7 +74,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Software Application Developer",
       icon: creator,
     },
   ];
@@ -81,6 +101,22 @@ import {
       icon: reactjs,
     },
     {
+      name: "Vue JS",
+      icon: vuejs,
+    },
+    {
+      name: "Angular JS",
+      icon: angularjs,
+    },
+    {
+      name: "Nest JS",
+      icon: nestjs,
+    },
+    {
+      name: "Next JS",
+      icon: nextjs,
+    },
+    {
       name: "Redux Toolkit",
       icon: redux,
     },
@@ -93,16 +129,32 @@ import {
       icon: nodejs,
     },
     {
+      name: "PHP",
+      icon: php,
+    },
+    {
       name: "MongoDB",
       icon: mongodb,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
     },
     {
       name: "Three JS",
       icon: threejs,
     },
     {
+      name: "Firebase",
+      icon: firebase,
+    },
+    {
       name: "git",
       icon: git,
+    },
+    {
+      name: "wordpress",
+      icon: wordpress,
     },
     {
       name: "figma",
@@ -123,48 +175,148 @@ import {
       date: "March 2022 - April 2023",
       points: [
         "Developing and maintaining web applications using Vue.js, Nuxt, Laravel-Bagisto, MySQL",
+        "Created an image editor application and contributed features on the backend of the business for customer handling application.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Sr. Web Developer",
-      company_name: "Alreno - Freelance Company",
+      title: "Software Engineer",
+      company_name: "Freelancing - Artificers",
       icon: alreno,
       iconBg: "#E6DEDD",
-      date: "Oct 2021 - Feb 2022",
+      date: "2021 - 2022",
       points: [
-        "Created a simple Arduino project weighing scale that connects to WiFi",
-        "Collaborating with teams using ReactNative-Expo, Arduino, AWS Lambda, NodeJS Serverless, Firebase-Firestore",
-        "Also implement project client in Papua New Guinea using PHP Custom Build, MySQL, jQuery, Vanilla JS, Apache, Fingerprint Biometric Scanning. ",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Alreno LPG: Created a simple Arduino project weighing scale that connects to WiFi. The Arduino will send the weight to AWS Lambda and the Lambda stores data in Firebase FireStore. The data will also be fetched from the ReactNative Expo app that I also have been built. The technologies involved are : ReactNative-Expo, Arduino, AWS Lambda, NodeJS Serverless, Firebase-Firestore.",
+        "SuSu Mama PNG: A project that I have been starting since 2013 and just been updating when they have a request for new features. It’s a system, web based application for health centers in Papua New Guinea. The technologies involved are : PHP Custom Build, MySQL, jQuery, Vanilla JS, Apache, Fingerprint Biometric Scanning.",
+        "WavesStock : A simple application wherein the user can search for premium images on the internet such as Shutterstock. The app fetches data from a private confidential API from China. Technology : ReactJS, Nodejs Serverless, Firebase-firestore",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Software Engineer",
+      company_name: "EmpowerWealth",
+      icon: empower,
       iconBg: "#E6DEDD",
-      date: "Jan 2022 - Jan 2023",
+      date: "2018 - 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I have created a portal for clients with micro-apps and services to help provide advisory to clients for property investments. ReactJS, AngularJS, ExpressJS, NodeJS, Webpack, MongoDB",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Freelance Web Developer",
+      company_name: "Digisearch",
+      icon: digisearch,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I have created a javascript based small scale ecommerce site that excludes the experience of UX reloading when navigating through pages.", 
+        "Technologies used here are NextJS, Laravel and MySQL",
+      ],
+    },
+    {
+      title: "Software Developer",
+      company_name: "DripCreative",
+      icon: dripcreative,
+      iconBg: "#E6DEDD",
+      date: "2017 - 2018",
+      points: [
+        "Creating a recruitment system for blue collar workers by connecting workers and jobs.",
+        "Technologies used here are ReactJS, NodeJS, ExpressJS, AdonisJS, MongoDB" 
+      ],
+    },
+    {
+      title: "Software Developer",
+      company_name: "SnapBooster",
+      icon: snapbooster,
+      iconBg: "#E6DEDD",
+      date: "2016 - 2017",
+      points: [
+        "Creating an app that records photo receipts from clients and then converts these as a text base character to be stored in the database.", 
+        "Technologies used here are VanillaJS, AWS Lambda Function",
+      ],
+    },
+    {
+      title: "Developer, Manager, Co-Founder",
+      company_name: "CodersforHire",
+      icon: coders,
+      iconBg: "#E6DEDD",
+      date: "2015 - 2016",
+      points: [
+        "Creating an app that records photo receipts from clients and then converts these as a text base character to be stored in the database.", 
+        "Technologies used here are VanillaJS, AWS Lambda Function",
+      ],
+      
+    },
+    {
+      title: "Software Engineer, Co-Founder",
+      company_name: "Inlight Marketing",
+      icon: inlight,
+      iconBg: "#E6DEDD",
+      date: "2014 - 2015",
+      points: [
+        "Create client portal software for MLM (Multi Level Marketing) with cash flows including binary system, genealogy network, and graphs). Custom PHP, MySQL"
+      ],
+    },
+    {
+      title: "Senior Web Developer",
+      company_name: "SandBox Digital",
+      icon: sandbox,
+      iconBg: "#E6DEDD",
+      date: "2013 - 2014",
+      points: [
+        "Provides websites and advertising landing pages for Australian clients. Example popular client is Shell Rimula. Wordpress, SCSS, jQuery"
+      ],
+    },
+    {
+      title: "Freelance Lead Tech",
+      company_name: "Advice Interactive",
+      icon: advice,
+      iconBg: "#E6DEDD",
+      date: "2012 - 2013",
+      points: [
+        "Create a client portal with SEO tools for boosting client’s web presence. Work includes creating Data Scraping scripts.",
+        "Custom PHP, RegEx, MySQL, jQuery, SOAP, Paypal API, Google API"
+      ],
+    },
+    {
+      title: "Freelance Wordpress Developer",
+      company_name: "Syntax Marketing",
+      icon: syntax,
+      iconBg: "#2e2e2e",
+      date: "2012",
+      points: [
+        "Create small to medium scale size wordpress sites for clients using Wordpress, jQuery, SCSS",
+      ],
+    },
+    {
+      title: "StartUp Owner",
+      company_name: "ThemeTribe",
+      icon: themetribe,
+      iconBg: "#E6DEDD",
+      date: "2012 - 2013",
+      points: [
+        "Creating various wordpress themes and plugins from scratch named from Filipino Tribes using Wordpress, jQuery, SCSS",
+      ],
+    },
+    {
+      title: "Developer, Co-Founder",
+      company_name: "WPCrunchy",
+      icon: wpcrunchy,
+      iconBg: "#E6DEDD",
+      date: "2011 - 2012",
+      points: [
+        "Creating premium wordpress themes from scratch, elegant themes support agents, custom wordpress plugins providers using Wordpress, jQuery, SCSS",
+      ],
+    },
+    {
+      title: "Jr / Sr Developer",
+      company_name: "OffSourcing Inc.",
+      icon: offsourcing,
+      iconBg: "#E6DEDD",
+      date: "2009 - 2011",
+      points: [
+        "Creates multi-branch ecommerce for a jewelry shop. Also provides wordpress sites for different clients. PHP, jQuery, JS, Yahoo Stores, Wordpress, CSS, MySQL, GoogleMapAPI, PaypalAPI",
       ],
     },
   ];
@@ -172,72 +324,72 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "He consistently delivered clean, high-quality code. He demonstrated a strong work ethic and was a pleasure to collaborate with. During our time working together, he focused on front-end development for a SAAS product.",
+      name: "Rodger Yonley",
+      designation: "Senior Software Engineer",
+      company: "Virtuous",
+      image: "https://media.licdn.com/dms/image/C5603AQFcuGQ1YMPj3w/profile-displayphoto-shrink_400_400/0/1651506753884?e=1695859200&v=beta&t=ua-taEPqDBcquNxGFVJezHOWGSYlZ63GqrnKMI2vZRo",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "He is really good in terms of Software Engineering in General. Easy to communicate and collaborate with. He's really good at working with JavaScript and its libraries such as React.",
+      name: "Dann Russell Molina",
+      designation: "Mobile Application Developer",
+      company: "Skodel",
+      image: "https://media.licdn.com/dms/image/D5603AQFKVrRDHZjKWg/profile-displayphoto-shrink_400_400/0/1669847629632?e=1695859200&v=beta&t=BYuUnX1dD08zl4OIvzOmeDvW_jLe03oFAbgC3gg4_To",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "One of the best engineer I’ve work with. Knowledge and skills are superb with excellent eye on quality software craftsmanship.",
+      name: "Junrill Galvez",
+      designation: "Full-Stack Software Architect & DevOps ",
+      company: "Freelancer",
+      image: "https://media.licdn.com/dms/image/C5603AQHWrLGAw_6mzw/profile-displayphoto-shrink_400_400/0/1592378921232?e=1695859200&v=beta&t=lUASpDNS4i6-NsXs8Kwy2dN-5Np3lgXu21Baw4ecHls",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Maruland",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Web3 with an endless metaverse play-to-own adventure game like Pokemon, Digimon and Neopets that can earn coin.",
       tags: [
         {
-          name: "react",
+          name: "Wordpress",
           color: "blue-text-gradient",
         },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "mongodb",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "tailwind",
+        //   color: "pink-text-gradient",
+        // },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: maruland,
+      source_code_link: "https://maruland.io/",
     },
     {
-      name: "Job IT",
+      name: "Lumaprints",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Provides high-quality canvas, paper, metal, peel & stick, and framed prints by using archival inks and top-of-the-line printers regularly calibrated to ensure color accuracy.",
       tags: [
         {
-          name: "react",
+          name: "VueJS",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Laravel-Bagisto",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Nuxt",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: imageeditor,
+      source_code_link: "https://www.lumaprints.com/",
     },
     {
       name: "Trip Guide",

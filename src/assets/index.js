@@ -44,11 +44,15 @@ import offsourcing from "./company/offsourcing.png";
 import syntax from "./company/syntax.png";
 import lumaprints from "./company/lumaprints.png";
 
-import carrent from "./carrent.png";
 import maruland from "./maruland.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import imageeditor from "./lumaprints.png";
+import marquess from "./marquess.png";
+import nexus from "./nexus.png";
+import nfty from "./nfty.png";
+import moopians from "./moopians.png";
+import empowers from "./empower.png";
+
+
 
 export {
   logo,
@@ -96,7 +100,9 @@ export {
   alreno,
   maruland,
   imageeditor,
-  carrent,
-  jobit,
-  tripguide,
+  marquess,
+  nexus,
+  nfty,
+  moopians,
+  empowers,
 };

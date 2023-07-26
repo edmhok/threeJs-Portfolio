@@ -37,12 +37,14 @@ import {
     alreno,
     empower,
     themetribe,
-    carrent,
+    marquess,
     imageeditor,
     maruland,
-    jobit,
-    tripguide,
+    nexus,
+    nfty,
     threejs,
+    moopians,
+    empowers,
   } from "../assets";
   
   export const navLinks = [
@@ -392,26 +394,111 @@ import {
       source_code_link: "https://www.lumaprints.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Marquess Global Limited",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A turnkey brokerage solution for financial and investment markets from Malaysia",
       tags: [
         {
-          name: "nextjs",
+          name: "Wordpress",
+          color: "blue-text-gradient",
+        },
+        // {
+        //   name: "supabase",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "css",
+        //   color: "pink-text-gradient",
+        // },
+      ],
+      image: marquess,
+      source_code_link: "https://mqg.io/",
+    },
+    {
+      name: "Nexus WorldBook",
+      description:
+        "World’s first crypto liquidity ecosystem, committed to building a cohesive network for both makers and takers.",
+      tags: [
+        {
+          name: "Wordpress",
+          color: "blue-text-gradient",
+        },
+        // {
+        //   name: "mongodb",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "tailwind",
+        //   color: "pink-text-gradient",
+        // },
+      ],
+      image: nexus,
+      source_code_link: "https://nexusworldbook-com.stackstaging.com/",
+    },
+    {
+      name: "NFTy",
+      description:
+        "Easiest place to create, buy and sell NFTs. Mint your very own collectible and let your biggest fans own it forever, literally.",
+      tags: [
+        {
+          name: "Wordpress",
+          color: "blue-text-gradient",
+        },
+        // {
+        //   name: "Web3",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "Nuxt",
+        //   color: "pink-text-gradient",
+        // },
+      ],
+      image: nfty,
+      source_code_link: "https://nftyfy.com/",
+    },
+    {
+      name: "Moopians",
+      description:
+        "A turnkey brokerage solution for financial and investment markets from Malaysia",
+      tags: [
+        {
+          name: "Wordpress",
+          color: "blue-text-gradient",
+        },
+        // {
+        //   name: "supabase",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "css",
+        //   color: "pink-text-gradient",
+        // },
+      ],
+      image: moopians,
+      source_code_link: "https://themoopians.io/",
+    },
+    {
+      name: "Empower Wealth Advisory",
+      description:
+        "Financially transform your life by investing in property today",
+      tags: [
+        {
+          name: "Wordpress",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "M E A N",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "M E R N",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: empowers,
+      source_code_link: "https://empowerwealth.com.au/",
     },
+
   ];
   
   export { services, technologies, experiences, testimonials, projects };

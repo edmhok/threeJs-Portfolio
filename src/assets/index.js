@@ -51,6 +51,7 @@ import nexus from "./nexus.png";
 import nfty from "./nfty.png";
 import moopians from "./moopians.png";
 import empowers from "./empower.png";
+import alrenomob from "./alrenomob.png";
 
 
 
@@ -105,4 +106,5 @@ export {
   nfty,
   moopians,
   empowers,
+  alrenomob,
 };

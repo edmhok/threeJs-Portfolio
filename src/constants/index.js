@@ -45,6 +45,7 @@ import {
     threejs,
     moopians,
     empowers,
+    alrenomob
   } from "../assets";
   
   export const navLinks = [
@@ -497,6 +498,27 @@ import {
       ],
       image: empowers,
       source_code_link: "https://empowerwealth.com.au/",
+    },
+    {
+      name: "Alreno Mobile",
+      description:
+        "Created a simple Arduino project weighing scale that connects to WiFi",
+      tags: [
+        {
+          name: "React-Native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Firebase Firestore",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: alrenomob,
+      source_code_link: "https://github.com/lchentanaone/Alreno-backup?fbclid=IwAR2w4lu47mwLgBrRz0YNbFA0uR22JGHvrXvXuF05IqycqWkFHF_g7FO3q04",
     },
 
   ];
